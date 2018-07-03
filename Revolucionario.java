@@ -3,9 +3,10 @@ package RevolucionR;
 import EHCPI.Civil;
 
 public abstract class Revolucionario extends Civil {
-
-	public Revolucionario(String nombre, String region) {
+	String corriente;
+	public Revolucionario(String nombre, String Ubicacion,String Corriente) {
 		super(nombre, region);
+		this.corriente=Corriente;
 	}
 
 }
